@@ -15,7 +15,7 @@
 
         <AbsoluteLayout>
             
-            <video:VideoPlayer x:Name="videoPlayer" AutoPlay="True"  AreTransportControlsEnabled="False"  AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" >
+            <video:VideoPlayer x:Name="videoPlayer" AutoPlay="True"  AreTransportControlsEnabled="False"  AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"  >
                 <!--<video:VideoPlayer.GestureRecognizers>
                     <TapGestureRecognizer Tapped="ShowHide" NumberOfTapsRequired="1"/>
 
