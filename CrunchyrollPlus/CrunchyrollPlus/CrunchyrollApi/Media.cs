@@ -19,7 +19,7 @@ namespace CrunchyrollPlus
         public string episodeNumber { get; set; }
         public string collectionId { get; set; }
         public int duration { get; set; }
-
+        public double progress { get; set; }
         public string thumbnail { get; set; }
 
         public string largeImageStar { get; set; }
@@ -90,7 +90,7 @@ namespace CrunchyrollPlus
                 thumbnail = (string)o["screenshot_image"]["full_url"];
 
             }
-
+            progress = (double)playhead / duration;
 
         }
     }
